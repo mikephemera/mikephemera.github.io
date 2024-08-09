@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!--==================== UNICONS 图标====================-->
+    <link rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- iconfont font class 方式引用图标 -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://at.alicdn.com/t/c/font_3900458_82z46p85im.css"
+    /> -->
+
+    <title>Yi (Michael) LIANG</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header scroll-header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Yi (Michael) LIANG</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>
+                <p i18n="home">Home</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>
+                <p i18n="about">About</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>
+                <p i18n="skills">Skills</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>
+                <p i18n="portfolio">Portfolio</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>
+                <p i18n="contact">Contact me</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <div class="nav__link" id="translate" value="en">
+                <svg class="icon nav__icon-svg" aria-hidden="true">
+                  <use xlink:href="#icon-fanyi"></use>
+                </svg>
+                <a class="=nav__link" id="nav__translate">Translate</a>
+              </div>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/yi-liang-9675ba144"
+                target="_blank" class="home__social-icon">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="https://github.com/mikephemera" target="_blank"
+                class="home__social-icon">
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a href="https://space.bilibili.com/11069598" target="_blank"
+                class="home__social-icon">
+                <!-- <i class="uil uil-dribbble"></i> -->
+                <svg t="1674801734735" viewBox="0 0 1024 1024" version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  p-id="4124">
+                  <path
+                    d="M777.514667 131.669333a53.333333 53.333333 0 0 1 0 75.434667L728.746667 255.829333h49.92A160 160 0 0 1 938.666667 415.872v320a160 160 0 0 1-160 160H245.333333A160 160 0 0 1 85.333333 735.872v-320a160 160 0 0 1 160-160h49.749334L246.4 207.146667a53.333333 53.333333 0 1 1 75.392-75.434667l113.152 113.152c3.370667 3.370667 6.186667 7.04 8.448 10.965333h137.088c2.261333-3.925333 5.12-7.68 8.490667-11.008l113.109333-113.152a53.333333 53.333333 0 0 1 75.434667 0z m1.152 231.253334H245.333333a53.333333 53.333333 0 0 0-53.205333 49.365333l-0.128 4.010667v320c0 28.117333 21.76 51.157333 49.365333 53.162666l3.968 0.170667h533.333334a53.333333 53.333333 0 0 0 53.205333-49.365333l0.128-3.968v-320c0-29.44-23.893333-53.333333-53.333333-53.333334z m-426.666667 106.666666c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z m320 0c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z"
+                    fill="hsl(250deg 69% 61%)" p-id="4125"></path>
+                </svg>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                  <image class="home__blob-img" x="-10" y="-30"
+                    xlink:href="assets/img/YI.jpg" />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title" i18n="home__title">Hi, I'm Yi
+              </h1>
+              <h3 class="home__subtitle" i18n="home__subtitle">Backend/Software
+                Developer
+              </h3>
+              <p class="home__description" i18n="home__description">Looking for
+                an opportunity where I can put my abilities to work and who
+                knows, maybe change the world by the way
+              </p>
+              <a href="#contact" class="button button-flex">
+                <span i18n="home__contact">Contact Me</span>
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+              <span class="home__scroll-name" i18n="home__scroll-name">Scroll
+                down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title" i18n="about__title">About Me</h2>
+        <span class="section__subtitle" i18n="about__subtitle">My
+          introduction</span>
+        <div class="about__container container grid">
+          <img src="assets/img/about.png" alt class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description" i18n="about__description">
+            </p>
+
+            <div class="about__buttons">
+              <a download href="assets/pdf/Yi_Liang_CV.pdf"
+                class="button button--flex">
+                <span i18n="download">Download CV</span><i
+                  class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title" i18n="skills__title">Skills</h2>
+        <span class="section__subtitle" i18n="skills__subtitle">My technical
+          level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!--==================== SKILLS 1 ====================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-processor skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title" i18n="skills__job_title">Software
+                    developer
+                  </h1>
+                  <!-- <span class="skills__subtitle" i18n="skills__years"
+                    >More than * years</span
+                  > -->
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name"> C/C++</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__cpp"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__number"> 70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__java"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">R</h3>
+                    <span class="skills__number">20%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__r"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">10%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__html"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== SKILLS 2 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-server-network skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title" i18n="skills__job_title2">Backend
+                    developer
+                  </h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name"> C/C++</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__cpp"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__number">30%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__python"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__number">20%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__sql"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Javascript</h3>
+                    <span class="skills__number">15%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__js"></div>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">AWS</h3>
+                    <span class="skills__number"> 10%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <div class="skills__percentage skills__aws"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title" i18n="qualification__title">
+          Qualification
+        </h2>
+        <span class="section__subtitle" i18n="qualification__subtitle">My
+          personal journey</span>
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education">
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              <span i18n="education">Education</span>
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              <span i18n="work">Work</span>
+            </div>
+
+            <div class="qualification__button button--flex"
+              data-target="#coursework">
+              <i class="uil uil-book-open qualification__icon"></i>
+              <span i18n="coursework">Coursework</span>
+            </div>
+
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION ====================-->
+            <div class="qualification__content qualification__active"
+              data-content id="education">
+              <!--==================== education 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title"
+                    i18n="qualification1__title">MS in Computer Science
+                  </h3>
+                  <span class="qualification__subtitle"
+                    i18n="qualification1__subtitle">Georgia Institute of
+                    Technology</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt">2023 - 2025<br>GPA: 4.0
+                    </i>
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== education 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title"
+                    i18n="qualification2__title">MS in Finance
+                  </h3>
+                  <span class="qualification__subtitle"
+                    i18n="qualification2__subtitle">University of Illinois at
+                    Urbana Champaign</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt">2021 - 2023<br>GPA: 3.9</i>
+                  </div>
+                </div>
+              </div>
+              <!--==================== education 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title"
+                    i18n="qualification3__title">Exchange study
+                  </h3>
+                  <span class="qualification__subtitle"
+                    i18n="qualification3__subtitle">Hamburg University of
+                    Technology</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt">2017 - 2018</i>
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== education 4 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+                <div>
+                  <h3 class="qualification__title"
+                    i18n="qualification4__title">MS
+                    in Finance
+                  </h3>
+                  <span class="qualification__subtitle"
+                    i18n="qualification4__subtitle">University of Illinois at
+                    Urbana Champaign</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt">2015 - 2019<br>GPA: 3.8</i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION work ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== work 1 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title"
+                    i18n="qualification2_1__title">Head Teaching Assistant
+                  </h3>
+                  <span class="qualification__subtitle"
+                    i18n="qualification2_1__subtitle">"University of Illinois at
+                    Urbana Champaign</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt">May 2022 - Present</i>
+                  </div>
+                </div>
+              </div>
+              <!--==================== work 2 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title"
+                    i18n="qualification2_2__title">C++ Backend Engineer Intern
+                  </h3>
+                  <span class="qualification__subtitle"
+                    i18n="qualification2_2__subtitle">Alibaba Group</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt">Mar 2023 - Aug 2023</i>
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== work 3 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title"
+                    i18n="qualification2_3__title">Data analyst Intern
+                  </h3>
+                  <span class="qualification__subtitle"
+                    i18n="qualification2_3__subtitle">"Tencent</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt">Mar 2021 - Aug 2021</i>
+                  </div>
+                </div>
+              </div>
+              <!--==================== work 4 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title"
+                    i18n="qualification2_4__title">Industry Research
+                  </h3>
+                  <span class="qualification__subtitle"
+                    i18n="qualification2_4__subtitle">CITIC Securities (Research
+                    Institute)</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt">Jul 2020 - Jan 2021</i>
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+            </div><!-- "qualification__content id="work"> -->
+
+            <!--==================== QUALIFICATION coursework ====================-->
+            <div class="qualification__content" data-content id="coursework">
+              <!-- Coursework -->
+              <div class="qualification__coursework">
+                <ul>
+                  <li>CS 6601 - Artificial Intelligence</li>
+                  <li>CS 6300 - Software Development Process</li>
+                  <li>CS 6250 - Computer Networks</li>
+                  <li>CS 6200 - Introduction to Operating Systems</li>
+                  <li>CS 6035 - Intro to Information Security</li>
+                  <br>
+                  <li>FIN 553 - Machine Learning in Finance</li>
+                  <li>FIN 510 - Big Data Analytics in Finance</li>
+                  <li>FIN 580 - Financial Data Mgt. & Analysis</li>
+                  <li>FIN 580 - Adv. Data Sci & Python for Fin</li>
+                  <li>FIN 580 - Data Science & Python for Fin.</li>
+                  <li>CS 8001 - Introduction to Object-Oriented Programming</li>
+                </ul></div>
+            </div><!-- <div data-content id="coursework"> -->
+          </div><!-- <div class="qualification__sections"></div> -->
+        </div><!-- <div class="qualification__container container"></div> -->
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title" i18n="portfolio__title">Portfolio</h2>
+        <span class="section__subtitle" i18n="portfolio__subtitle">Selected
+          Projects</span>
+
+        <div class="portfolio__container container grid">
+          <!--==================== PORTFOLIO 1 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="\assets\proj\CS6200\CS6200_P1.png" alt
+              class="portfolio__img" />
+
+            <div class="portfolio_">
+              <h3 class="portfolio__title" i18n="portfolio1__title">
+                PORTFOLIO 1
+              </h3>
+              <p class="portfolio__description" i18n="portfolio1__description">
+                PORTFOLIO 1
+              </p>
+              <a href="\assets\proj\CS6200\CS6200_P1.pdf" target="_blank"
+                class="button button--flex button--small portfolio__button">
+                PDF
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 2 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="\assets\proj\CS6200\CS6200_P4_2.png" alt
+              class="portfolio__img" />
+
+            <div class="portfolio_">
+              <h3 class="portfolio__title" i18n="portfolio2__title">
+                PORTFOLIO 2
+              </h3>
+              <p class="portfolio__description" i18n="portfolio2__description">
+                PORTFOLIO 2
+              </p>
+              <a href="\assets\proj\CS6200\CS6200_P4.pdf" target="_blank"
+                class="button button--flex button--small portfolio__button">
+                PDF
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 3 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio1.png" alt class="portfolio__img" />
+
+            <div class="portfolio_">
+              <h3 class="portfolio__title" i18n="portfolio3__title">
+                PORTFOLIO 3
+              </h3>
+              <p class="portfolio__description" i18n="portfolio3__description">
+                PORTFOLIO 3
+              </p>
+              <a href="\assets\proj\Fin510_Project_final.html" target="_blank"
+                class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="\assets\proj\FIN510_Executive_Summary.pdf"
+                target="_blank"
+                class="button button--flex button--small portfolio__button">
+                PDF
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <!--==================== More PORTFOLIO ====================-->
+        <div><br></div>
+        <span class="portfolio_more_title"
+          i18n="portfolio_more_subtitle">More</span>
+        <div class="portfolio_more_container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== More PORTFOLIO 1 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="\assets\proj\CS6200\CS6200_P3.png" alt
+                class="portfolio__img" />
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio_more1_title">
+                  More PORTFOLIO 1
+                </h3>
+                <p class="portfolio__description"
+                  i18n="portfolio_more1_description">
+                  More PORTFOLIO 1
+                </p>
+                <a href="\assets\proj\CS6200\CS6200_P3.pdf" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  PDF
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== More PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="\assets\proj\CS6250\CS6250_P1.png" alt
+                class="portfolio__img" />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio_more2_title">
+                  More PORTFOLIO 2
+                </h3>
+                <p class="portfolio__description"
+                  i18n="portfolio_more2_description">
+                  More PORTFOLIO 2
+                </p>
+                <a href="\assets\proj\CS6250\CS6250_P1.pdf" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  PDF
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== More PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="\assets\proj\CS6250\CS6250_P2.png" alt
+                class="portfolio__img" />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio_more3_title">
+                  More PORTFOLIO 3
+                </h3>
+                <p class="portfolio__description"
+                  i18n="portfolio_more3_description">
+                  More PORTFOLIO 3
+                </p>
+                <a href="\assets\proj\CS6250\CS6250_P2.pdf" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  PDF
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== More PORTFOLIO 4 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="\assets\proj\CS6250\CS6250_P3.png" alt
+                class="portfolio__img" />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio_more4_title">
+                  More PORTFOLIO 4
+                </h3>
+                <p class="portfolio__description"
+                  i18n="portfolio_more4_description">
+                  More PORTFOLIO 4
+                </p>
+                <a href="\assets\proj\CS6250\CS6250_P3.pdf" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  PDF
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== More PORTFOLIO 5 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="\assets\proj\CS6250\CS6250_P4.png" alt
+                class="portfolio__img" />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio_more5_title">
+                  More PORTFOLIO 5
+                </h3>
+                <p class="portfolio__description"
+                  i18n="portfolio_more5_description">
+                  More PORTFOLIO 5
+                </p>
+                <a href="\assets\proj\CS6250\CS6250_P4.pdf" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  PDF
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <!-- add arrows-->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title" i18n="contact__title">Contact me</h2>
+        <span class="section__subtitle" i18n="contact__subtitle">Get in
+          touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone-alt contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="tel">Call me</h3>
+                <span class="contact__subtitle"
+                  i18n="tel__number">2179531528</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="email">E-mail</h3>
+                <a class="contact__subtitle" href="mailto:yliang391@gatech.edu"
+                  target="_blank">yliang391@gatech.edu
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="location">Location</h3>
+                <span class="contact__subtitle"
+                  i18n="location__detail">Champaign, Illinois</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Yi LIANG</h1>
+            <span class="footer__subtitle" i18n="home__subtitle">Frontend
+              developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#skills" class="footer__link" i18n="skills">Skills</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link"
+                i18n="portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link" i18n="contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://www.linkedin.com/in/yi-liang-9675ba144"
+              target="_blank">
+              <svg class="icon footer__social" aria-hidden="true">
+                <use xlink:href="#icon-linkedin"></use>
+              </svg>
+            </a>
+            <a href="https://github.com/mikephemera" target="_blank">
+              <svg class="icon footer__social" aria-hidden="true">
+                <use xlink:href="#icon-github"></use>
+              </svg>
+            </a>
+            <a href="https://space.bilibili.com/11069598" target="_blank">
+              <svg class="icon footer__social" aria-hidden="true">
+                <use xlink:href="#icon-bilibili-line"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">
+          Template from
+          <a class="footer__copy"
+            href="https://github.com/ASouthernCat/responsive-portfolio-website"
+            target="_blank">ASOUTHERNCAT</a>
+        </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- iconfont JS -->
+    <script src="assets/js/iconfont.js"></script>
+    <!-- jquery -->
+    <script src="assets/js/jquery2.1.4.min.js"></script>
+    <script src="assets/js/jquery.i18n.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- translate JS -->
+    <script src="assets/js/cn-en-translate.js"></script>
+  </body>
+
+</html>
