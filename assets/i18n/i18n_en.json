@@ -59,7 +59,7 @@
     "portfolio_more4_description": "Use Software Defined Networking (SDN) principles to create a configurable firewall using an OpenFlow enabled Switch.",
     "portfolio_more5_title": "BGP Measurement",
     "portfolio_more5_description": "Use the BGPStream tool and its Python interface PyBGPStream to understand the BGP protocol and interact with BGP data. The goal is to gain a better understanding of BGP.",
-    "contact__title": "Contact me",
+    "contact__title": "Contact",
     "contact__subtitle": "Get in touch",
     "tel": "Call me",
     "tel__number": "+1 217-953-1528",
