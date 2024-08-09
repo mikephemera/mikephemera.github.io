@@ -26,7 +26,7 @@
     <!--==================== HEADER ====================-->
     <header class="header scroll-header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Yi (Michael) LIANG</a>
+        <a href="#" class="nav__logo"i18n="name">name</a>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
@@ -49,6 +49,12 @@
               </a>
             </li>
             <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-graduation-cap nav__icon"></i>
+                <p i18n="qualification">Qualification</p>
+              </a>
+            </li>
+            <li class="nav__item">
               <a href="#portfolio" class="nav__link">
                 <i class="uil uil-scenery nav__icon"></i>
                 <p i18n="portfolio">Portfolio</p>
@@ -60,16 +66,18 @@
                 <p i18n="contact">Contact me</p>
               </a>
             </li>
-            <li class="nav__item">
-              <div class="nav__link" id="translate" value="en">
-                <svg class="icon nav__icon-svg" aria-hidden="true">
-                  <use xlink:href="#icon-fanyi"></use>
-                </svg>
-                <a class="=nav__link" id="nav__translate">Translate</a>
-              </div>
-            </li>
+
           </ul>
           <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <div class="nav__link" id="translate" value="en">
+            <svg class="icon nav__icon-svg" aria-hidden="true">
+              <use xlink:href="#icon-fanyi"></use>
+            </svg>
+            <a class="=nav__link" id="nav__translate"></a>
+          </div>
         </div>
 
         <div class="nav__btns">
@@ -320,7 +328,7 @@
       </section>
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
+      <section class="qualification section" id="qualification">
         <h2 class="section__title" i18n="qualification__title">
           Qualification
         </h2>
@@ -347,6 +355,7 @@
             </div>
 
           </div>
+
           <div class="qualification__sections">
             <!--==================== QUALIFICATION ====================-->
             <div class="qualification__content qualification__active"
@@ -774,9 +783,9 @@
       <div class="footer__bg">
         <div class="footer__container container grid">
           <div>
-            <h1 class="footer__title">Yi LIANG</h1>
-            <span class="footer__subtitle" i18n="home__subtitle">Frontend
-              developer</span>
+            <h1 class="footer__title" i18n="name">name</h1>
+            <span class="footer__subtitle"
+              i18n="home__subtitle">home__subtitle</span>
           </div>
 
           <ul class="footer__links">
