@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("./portfolio.html")
     .then((response) => response.text())
     .then((data) => {
-      document.getElementById("portfolio-section").innerHTML = data;
+      document.getElementById("portfolio").innerHTML = data;
       initPortfolioSwiper();
     });
 });
