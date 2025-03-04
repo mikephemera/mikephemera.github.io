@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("portfolio").innerHTML = data;
+      $("[i18n]").i18n({ defaultLang: localStorage.getItem("lang") || "en" });
       initPortfolioSwiper();
     });
 });
