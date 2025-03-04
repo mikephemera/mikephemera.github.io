@@ -43,7 +43,7 @@ function toggleSkills() {
       setTimeout(() => {
         content.classList.remove("skills__open", "skills__closing");
         content.classList.add("skills__close");
-      }, 200);
+      }, 100);
     }
   });
 

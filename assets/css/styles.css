@@ -491,17 +491,6 @@ img {
   color: var(--text-color-light);
 }
 
-.skills__arrow {
-  margin-left: auto;
-  transition: 0.4s;
-}
-
-.skills__list {
-  row-gap: 1.5rem;
-  padding-left: 2.7rem;
-  transition: 0.4s;
-}
-
 .skills__titles {
   display: flex;
   justify-content: space-between;
@@ -565,17 +554,26 @@ img {
 }
 
 .skills__content {
-  transition: max-height 0.4s ease-out;
+  overflow: hidden;
+  transition: max-height 0.8s ease-in-out; /* 统一过渡时间 */
+}
+.skills__arrow {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.skills__list {
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+  transition: 0.8s;
 }
 
 .skills__close .skills__list {
   max-height: 0;
-  overflow: hidden;
 }
 
 .skills__open .skills__list {
   max-height: 1000px; /* 根据实际内容高度调整 */
-  transition: max-height 0.8s ease-in;
 }
 
 .skills__open .skills__arrow {
