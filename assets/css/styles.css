@@ -1231,3 +1231,35 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.portfolio__paper-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio__paper-links li {
+  margin-bottom: 0.rem;
+  position: relative;
+  padding-left: 0.8rem;
+}
+
+.portfolio__paper-links li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--first-color);
+}
+
+.portfolio__paper-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s;
+  display: block;
+  padding: -0rem 0;
+}
+
+.portfolio__paper-links a:hover {
+  color: var(--first-color);
+  text-decoration: underline;
+}
